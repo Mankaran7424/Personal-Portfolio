@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Caveat:wght@600&family=Pacifico&family=Peralta&family=Rubik+Bubbles&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Caveat:wght@600&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Peralta&family=Rubik+Bubbles&display=swap');
+
+
+h1{
+ 
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #F99417 !important ;
+  display: inline;
+  }
+h4,h5{
+  color: #F99417 !important ;
+
+}
+
+*{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
