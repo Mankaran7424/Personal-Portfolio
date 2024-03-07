@@ -46,10 +46,9 @@ export default function Project() {
                                 <div className="col-md-8">
                                     <div className="card-body">
                                         <h5 className="card-title text-decoration-underline">Word Counter</h5>
-                                        <h6 className="card-text h6">Created a dynamic personal portfolio utilizing HTML, CSS, Bootstrap, and React.
-                                            Effectively presented personal projects, skills, and contact information in a clear and organized manner.
+                                        <h6 className="card-text h6">Created a word counter app using React. Users can type or paste text into the text field, and the application instantly displays the word count.The addition of customized buttons further enhances the user experience.
                                         </h6>
-                                        <h6 className="card-text"><small className="text-body-secondary">2023-2024</small></h6>
+                                        <h6 className="card-text"><small className="text-body-secondary">2024</small></h6>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +66,7 @@ export default function Project() {
                                         <h6 className="card-text h6">Created a dynamic personal portfolio utilizing HTML, CSS, Bootstrap, and React.
                                             Effectively presented personal projects, skills, and contact information in a clear and organized manner.
                                         </h6>
-                                        <h6 className="card-text"><small className="text-body-secondary">2023-2024</small></h6>
+                                        <h6 className="card-text"><small className="text-body-secondary">2023</small></h6>
                                     </div>
                                 </div>
                             </div>

@@ -11,19 +11,18 @@ export default function Main() {
     return (
         <>
             <main>
-                {/* <!-- ProfilePic Section  --> */}
-                <div className="container mt-5 mb-5">
+                <div className="container bg-light">
                     <div className="row pt-5">
-                        <div className="col-8 m-auto mb-5 p-3 shadow-lg " id="picBackground">
-                            <div className="card m-auto shadow-lg border" id="card">
+                        <div className="col-7 m-auto mb-4 p-3 shadow-lg bg-light" id="picBackground">
+                            <div className="card m-auto shadow-lg border bg-light" id="card">
                                 <img className="card-img-top img-fluid rounded-circle w-50 h-50 m-auto mt-3"
-                                    src="./avater.avif" alt="Profile-Pic"></img>
+                                    src="./img.jpg" alt="Profile-Pic"></img>
                                 <div className="card-body text-center">
                                     <h3 className=" h3 card-title">Mankaran Singh</h3>
-                                    <p className="card-text">Full Stack Software Developer</p>
+                                    <p className="card-text text-danger">Full Stack Software Developer</p>
                                 </div>
 
-                                <div className=' m-2 align-self-center'>
+                                <div className=' mx-2 align-self-center'>
                                     <a href="https://github.com/Mankaran7424" target='_blank' rel="noreferrer">
                                         <IconContext.Provider value={{ size: "2rem", className: 'icons', color: "black" }}>
                                             <VscGithub />

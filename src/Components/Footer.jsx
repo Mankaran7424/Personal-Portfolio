@@ -10,8 +10,8 @@ import "./style.css"
 export default function Footer() {
     return (
         <>
-            <footer className="text-center">
-                <div className="container pt-4">
+            <footer className="text-center w-75 rounded m-auto my-2">
+                <div className="container pt-3">
                     {/* <!-- Section: Social media --> */}
                     <section className="mb-1">
                         <a className="p-2 d-block-inline" href="https://github.com/Mankaran7424" target='_blank' rel="noreferrer">
@@ -37,9 +37,9 @@ export default function Footer() {
                 </div>
 
                 {/* Copyright  */}
-                <div className="text-center p-3" >
+                <div className="text-center p-2" >
                     <IconContext.Provider value={{ size: "1.2rem" }}>
-                        ©2023-2024 by :  M a n k a r a n S i n g h <FcApproval />
+                        Copyright ©2023 by :  M a n k a r a n  S i n g h <FcApproval />
                     </IconContext.Provider>
                 </div>
             </footer>

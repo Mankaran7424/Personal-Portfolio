@@ -1,5 +1,5 @@
 import NavBar from "./Components/NavBar";
-import ProfilePic from "./Components/ProfilePic"
+import Index from "./Components/Index"
 import About from "./Components/About";
 import Education from "./Components/Education";
 import Skills from "./Components/Skills";
@@ -15,22 +15,15 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" />
-        <Route path="about" element="{<About />}" />
+        <Route path="/" element={<Index />} />
+        <Route path="index" element={<Index />} />
+
+        <Route path="about" element={<About />} />
+        <Route path="education" element={<Education />} />
+        <Route path="projects" element={<Project />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path="hireme" element={<ContactForm />} />
       </Routes>
-
-
-      <ProfilePic />
-      <About />
-
-      <Education />
-
-      <Project />
-
-      <Skills />
-
-      <ContactForm />
-
       <Footer />
     </>
   );

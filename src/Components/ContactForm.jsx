@@ -2,7 +2,6 @@ import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { GoCommentDiscussion } from "react-icons/go";
-
 import { IconContext } from 'react-icons';
 
 
@@ -36,8 +35,8 @@ export default function ContactForm() {
                     </IconContext.Provider>
                 </h1>
                 <div className="row m-2 justify-content-center align-items-center">
-                    <div className="col-lg-8  shadow m-2 p-5 rounded">
-                        <form className="border" ref={form} onSubmit={sendEmail}>
+                    <div className="col-lg-7  shadow m-2 p-5 rounded">
+                        <form className="border bg-light" ref={form} onSubmit={sendEmail}>
                             <div className="form-group row justify-content-center m-3">
                                 <div className="col-sm-11 m-3">
                                     {/* value={formData.name} onChange={handleChange} */}
